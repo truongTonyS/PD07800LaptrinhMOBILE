@@ -12,6 +12,7 @@ import Lab2Screen from './Lab/Lab2/lab2_home';
 
 import Move from './Lab/Lab3/Move';
 import Bai2Lab3 from './Lab/Lab3/bai2';
+import asm from './ASm/main'
 
 
 
@@ -19,7 +20,7 @@ import Bai2Lab3 from './Lab/Lab3/bai2';
 
 const App = () => {
   return (
-    <Bai2Lab3></Bai2Lab3>
+    <asm></asm>
     
 );
 };
