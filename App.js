@@ -10,24 +10,17 @@ import Bai3Lab1 from './Lab/Lab1/Bai3';
 import Main from './componentss/Main';
 import Lab2Screen from './Lab/Lab2/lab2_home';
 
-import Move from './Lab/Lab3/Move';
+import Bai1Lab3 from './Lab/Lab3/Move';
 import Bai2Lab3 from './Lab/Lab3/bai2';
-import asm from './ASm/main'
-
-
-
 
 
 const App = () => {
   return (
-    <asm></asm>
+  //  < Bai1Lab3></Bai1Lab3>
+   < Bai2Lab3></Bai2Lab3>
+
     
 );
 };
-
-
-
-    
-
 
 export default App;
