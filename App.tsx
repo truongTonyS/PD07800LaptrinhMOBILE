@@ -1,81 +1,82 @@
-// import { StatusBar } from 'expo-status-bar';
-// import { StyleSheet, Text, View,TouchableOpacity } from 'react-native';
-// import Student from './components/Student';
-// import { NavigationContainer } from "@react-navigation/native";
-// import React from 'react';
-// import Lab1Screen from './components/Home';
-// import Bai1 from './Lab/Lab1/Bai1';
-// import Bai2 from './Lab/Lab1/Bai2';
-// import Bai3Lab1 from './Lab/Lab1/Bai3';
-// import Main from './componentss/Main';
-// import Lab2Screen from './Lab/Lab2/lab2_home';
+import { StatusBar } from 'expo-status-bar';
+import { StyleSheet, Text, View,TouchableOpacity } from 'react-native';
+import Student from './components/Student';
+import { NavigationContainer } from "@react-navigation/native";
+import React from 'react';
+import Lab1Screen from './components/Home';
+import Bai1 from './Lab/Lab1/Bai1';
+import Bai2 from './Lab/Lab1/Bai2';
+import Bai3Lab1 from './Lab/Lab1/Bai3';
+import Main from './componentss/Main';
+import Lab2Screen from './Lab/Lab2/lab2_home';
 
-// import Bai1Lab3 from './Lab/Lab3/Move';
-// import Bai2Lab3 from './Lab/Lab3/bai2';
-
-
+import Bai1Lab3 from './Lab/Lab3/Move';
+import Bai2Lab3 from './Lab/Lab3/bai2';
 
 
 
-// const App = () => {
-//   return (
 
-//     <Bai2Lab3></Bai2Lab3>
-    
-// );
-// };
 
-// export default App;
+
+function App() {
+  return (
+
+    <Asm navigation={undefined}></Asm>
+
+  );
+}
+
+export default App;
 // App.js
 
 // lab7
-import React from 'react-native';
-import {Provider} from 'react-redux';
-import {persistor, store} from './Lab/lab56/redux/store';
-import {PersistGate} from 'redux-persist/integration/react';
-import HomeScreen from './Lab/lab56/screen/HomeScreen';
-import {NavigationContainer} from '@react-navigation/native';
-import {createNativeStackNavigator} from '@react-navigation/native-stack';
-import Lab0602 from './Lab/lab56/screen/Lab0602';
-import Lab0603 from './Lab/lab56/screen/Lab0603';
+// import React from 'react-native';
+// import {Provider} from 'react-redux';
+// import {persistor, store} from './Lab/lab56/redux/store';
+// import {PersistGate} from 'redux-persist/integration/react';
+// import HomeScreen from './Lab/lab56/screen/HomeScreen';
+// import {NavigationContainer} from '@react-navigation/native';
+// import {createNativeStackNavigator} from '@react-navigation/native-stack';
+// import Lab0602 from './Lab/lab56/screen/Lab0602';
+// import Lab0603 from './Lab/lab56/screen/Lab0603';
 
-const Stack = createNativeStackNavigator();
+// const Stack = createNativeStackNavigator();
 
-function App(): React.JSX.Element {
-  return (
-    <Provider store={store}>
-      <PersistGate loading={null} persistor={persistor}>
-        <NavigationContainer>
-          <Stack.Navigator>
-            <Stack.Screen
-              name="Home"
-              component={HomeScreen}
-              options={{
-                title: 'Lab 05 - 06',
-              }}
-            />
+// function App(): React.JSX.Element {
+//   return (
+//     <Provider store={store}>
+//       <PersistGate loading={null} persistor={persistor}>
+//         <NavigationContainer>
+//           <Stack.Navigator>
+//             <Stack.Screen
+//               name="Home"
+//               component={HomeScreen}
+//               options={{
+//                 title: 'Lab 05 - 06',
+//               }}
+//             />
 
-            <Stack.Screen
-              name="Lab0602"
-              component={Lab0602}
-              options={{
-                title: 'Lab 06 - 02',
-              }}
-            />
+//             <Stack.Screen
+//               name="Lab0602"
+//               component={Lab0602}
+//               options={{
+//                 title: 'Lab 06 - 02',
+//               }}
+//             />
 
-            <Stack.Screen
-              name="Lab0603"
-              component={Lab0603}
-              options={{
-                title: 'Lab 06 - 03',
-              }}
-            />
-          </Stack.Navigator>
-        </NavigationContainer>
-      </PersistGate>
-    </Provider>
-  );
-}
+//             <Stack.Screen
+//               name="Lab0603"
+//               component={Lab0603}
+//               options={{
+//                 title: 'Lab 06 - 03',
+//               }}
+//             />
+//           </Stack.Navigator>
+//         </NavigationContainer>
+//       </PersistGate>
+//     </Provider>
+//   );
+// }
 // lab8
 // export default App;
 // import React from 'react';
